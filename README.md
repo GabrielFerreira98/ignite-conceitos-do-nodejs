@@ -30,12 +30,12 @@ Tudo isso para cada usuário em específico (o username será passado pelo heade
 
 ## Requisitos da Aplicação
 
-- Requisitos de usuário
+### Requisitos de usuário
 
 1. Deve ser possível criar um usuário
 2. Não deve ser possível criar um usuário com um username existente
 
-- Requisitos de To-do's
+### Requisitos de To-do's
 
 1. Deve ser possível listar todos os to-do's de um usuário
 2. Deve ser possível criar um novo to-do
