@@ -20,9 +20,12 @@ https://www.notion.so/Desafio-01-Conceitos-do-Node-js-59ccb235aecd43a6a06bf09a24
 O projeto foi realizado utilizando os conceitos iniciais do Node.js e a biblioteca Express
 
 - [NodeJS](https://nodejs.org/en/)
-- Express
+- [Express](https://expressjs.com/pt-br/)
 
 # 📌 Index
+
+- Instalando as ferramentas
+  - Baixando o Yarn
 
 
 ## Rotas da Aplicação
