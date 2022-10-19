@@ -274,6 +274,8 @@ Status code: ```404```
 Todo não encontrado
 ```{error: 'Todo not found!'}```
 
+Status code: ```404```
+
 - PATCH - /todos/:id/done
 
 #### Descrição
@@ -313,6 +315,8 @@ Status code: ```201```
 O usuário não existe
 ``` {error: 'User not found!'} ```
 
+Status code: ```404```
+
 Todo não encontrado
 ```{error: 'Todo not found!'}```
 
@@ -336,19 +340,12 @@ Essa rota deleta o to-do's a partir de um username no request headers
 
 ##### Body
 
-```
-{
-}
-```
-
 ##### Resposta
-```
-{
-}
-```
+
 Status code: ```201```
 
 ##### Possíveis erros
+
 O usuário não existe
 ``` {error: 'User not found!'} ```
 
@@ -356,6 +353,7 @@ Status code: ```404```
 
 Todo não encontrado
 ```{error: 'Todo not found!'}```
+Status code: ```404```
 
 
 
