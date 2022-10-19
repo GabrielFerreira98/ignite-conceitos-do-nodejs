@@ -15,21 +15,40 @@ Esse é o desafio 01 do primeiro módulo da trilha de NodeJS do Ignite da Rocket
 
 https://www.notion.so/Desafio-01-Conceitos-do-Node-js-59ccb235aecd43a6a06bf09a24e7ede8#31772e343719426181b6c799ecb4ef55
 
-# 🧑‍💻 Tecnologias utilizadas
+## 🧑‍💻 Tecnologias utilizadas
 
 - [NodeJS](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
 - [Insomnia](https://insomnia.rest/)
 
-# 📌 Index
+## 📌 Index
 
-- [Instalando as ferramentas](18)
+- [Instalando as ferramentas]()
   - Baixando o Yarn
 - [Requisitos da aplicação](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs/blob/main/README.md#requisitos-da-aplica%C3%A7%C3%A3o)
   - Requisitos de Usuário
   - Requisitos de To-do
-- 
 
+# 🧰 Instalando as Ferramentas 
+
+Os passos desse tópico foram realizados no sistema operacional do Windows.
+
+## Instalando o NodeJS
+
+É possível fazer o download pelo [Site oficial do NodeJS](https://nodejs.org/en/download/)
+
+Após o download, abra o Windos PowerShell no modo administrador e digite a seguinte linha de código para ver se o Node foi instalado corretamente:
+
+```node -v```
+
+## Instalando o Yarn
+
+O Yarn é o gerenciador de pacotes que será utilizado para baixar todas as dependências e executar o projeto. Caso você deseje fazer com o NPM, pode pular esta etapa.
+Há duas possibilidades de baixar o Yarn
+
+1. Pelo site oficial do [Yarn](https://yarnpkg.com/)
+2. Rodar o seguinte comando no terminal:
+```npm install -g yarn```
 
 ## Rotas da Aplicação
 
