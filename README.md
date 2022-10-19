@@ -11,17 +11,18 @@ Essa é uma aplicação para gerenciar tarefas (*to-do's*). 
 
 Tudo isso para cada usuário em específico (o username será passado pelo header).
 
+Esse é o desafio 01 do primeiro módulo da trilha de NodeJS do Ignite da Rocketseat. O desafio está disponível no seguinte link:
+
+https://www.notion.so/Desafio-01-Conceitos-do-Node-js-59ccb235aecd43a6a06bf09a24e7ede8#31772e343719426181b6c799ecb4ef55
+
 # 🧑‍💻 Tecnologias utilizadas
 
 O projeto foi realizado utilizando os conceitos iniciais do Node.js e a biblioteca Express
 
-- NodeJS
+- NodeJS(https://nodejs.org/en/)
 - Express
 
-https://www.notion.so/Desafio-01-Conceitos-do-Node-js-59ccb235aecd43a6a06bf09a24e7ede8#31772e343719426181b6c799ecb4ef55
-
-## Sobre o desafio
-
+# 📌 Index
 
 
 ## Rotas da Aplicação
