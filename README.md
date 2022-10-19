@@ -33,7 +33,7 @@ https://www.notion.so/Desafio-01-Conceitos-do-Node-js-59ccb235aecd43a6a06bf09a24
 
 Os passos desse tópico foram realizados no sistema operacional do Windows.
 
-## Instalando o NodeJS
+### Instalando o NodeJS
 
 É possível fazer o download pelo [Site oficial do NodeJS](https://nodejs.org/en/download/)
 
@@ -41,7 +41,7 @@ Após o download, abra o Windos PowerShell no modo administrador e digite a segu
 
 ```node -v```
 
-## Instalando o Yarn
+### Instalando o Yarn
 
 O Yarn é o gerenciador de pacotes que será utilizado para baixar todas as dependências e executar o projeto. Caso você deseje fazer com o NPM, pode pular esta etapa.
 Há duas possibilidades de baixar o Yarn
