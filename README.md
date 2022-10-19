@@ -25,7 +25,7 @@ https://www.notion.so/Desafio-01-Conceitos-do-Node-js-59ccb235aecd43a6a06bf09a24
 
 - [Instalando as ferramentas](18)
   - Baixando o Yarn
-- Requisitos da aplicação
+- [Requisitos da aplicação](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs/blob/main/README.md#requisitos-da-aplica%C3%A7%C3%A3o)
   - Requisitos de Usuário
   - Requisitos de To-do
 - 
