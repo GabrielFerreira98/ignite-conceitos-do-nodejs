@@ -31,7 +31,7 @@ https://www.notion.so/Desafio-01-Conceitos-do-Node-js-59ccb235aecd43a6a06bf09a24
 - [Inicializando o Projeto](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#-inicializando-o-projeto)
 - [API](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#%EF%B8%8F-api)
   - [Requisitos da Aplicação](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#requisitos-da-aplica%C3%A7%C3%A3o)
-  - [Rotas]()
+  - [Rotas](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#rotas)
 
 ## 🧰 Instalando as Ferramentas 
 
