@@ -1,4 +1,4 @@
- # 🖥️ Conceitos do Node.js - Ignite - Rocketseat
+ # 🖥️ Conceitos do NodeJS - Ignite - Rocketseat
 
 Essa é uma aplicação para gerenciar tarefas (*to-do's*). 
 É permitida a criação de um usuário com name e username, bem como fazer o CRUD de todos:
