@@ -40,7 +40,7 @@ Os passos desse tópico foram realizados no sistema operacional do Windows.
 Após o download, abra o Windos PowerShell no modo administrador e digite a seguinte linha de código para ver se o Node foi instalado corretamente:
 
 ```
-  node -v
+node -v
 ```
 
 ### Instalando o Yarn
@@ -50,7 +50,9 @@ Há duas possibilidades de baixar o Yarn
 
 1. Pelo site oficial do [Yarn](https://yarnpkg.com/)
 2. Rodar o seguinte comando no terminal:
-```npm install -g yarn```
+```
+npm install -g yarn
+```
 
 ## Rotas da Aplicação
 
