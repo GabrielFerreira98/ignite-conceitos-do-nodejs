@@ -116,12 +116,247 @@ Mantenha o terminal rodando para utilizar o projeto
 7. Deve ser possível deletar um to-do
 8. Não deve ser possível deletar um to-do não existente
 
-- post/users
-- get/todos
-- post/todos
-- put/todos/:id
-- patch/todos/:id/done
-- delete/todos/:id
+A URL base a ser usada como exemplo será uma variável base_url. Considere que ela armazene o valor http://localhost:3333.
+
+### Usuário
+
+- POST - base_url/users
+
+#### Descrição
+
+Essa rota realiza o cadastro de um usuário a partir do nome e de um username
+
+#### Resposta 
+
+##### Body
+
+```
+{
+	"name": "Gabriel",
+	"username": "bielassuncao"
+}
+```
+
+##### Resposta
+```
+{
+	"id": "8a55f83e-949c-4f89-9385-7df73d351124",
+	"name": "Gabriel",
+	"username": "bielassuncao",
+	"done": false,
+	"todos": []
+}
+```
+Status code: ```201```
+
+##### Possíveis erros
+O username já existe
+``` {error: 'username already exists!'} ```
+
+Status code: ```400```
+
+- GET - base_url/todos
+
+#### Descrição
+
+Essa rota lista todos os to-do's a partir de um username no request headers
+
+#### Resposta 
+
+##### Header
+
+```
+{
+	"username": "bielassuncao"
+}
+```
+
+##### Resposta
+```
+{
+	[todos]
+}
+```
+Status code: ```201```
+
+##### Possíveis erros
+O usuário não existe
+``` {error: 'User not found!'} ```
+
+Status code: ```404```
+
+- POST - base_url/todos
+
+#### Descrição
+
+Essa rota cria um to-do's a partir de um username no request headers e mostra esse to-do como resposta
+
+#### Resposta 
+
+##### Header
+
+```
+{
+	"username": "bielassuncao"
+}
+```
+
+##### Body
+
+```
+{
+	"title": "Tarefa 2",
+	"deadline": "2022-10-20"
+}
+```
+
+##### Resposta
+```
+{
+	"id": "b53b7039-c04e-4bb1-a383-4a5b7f246bb8",
+	"title": "Tarefa 2",
+	"deadline": "2022-10-20T00:00:00.000Z",
+	"done": false,
+	"created_at": "2022-10-19T15:03:24.610Z"
+}
+```
+Status code: ```201```
+
+##### Possíveis erros
+O usuário não existe
+``` {error: 'User not found!'} ```
+
+Status code: ```404```
+
+- PUT - base_url/todos/:id
+
+#### Descrição
+
+Essa rota altera um to-do's a partir de um username no request headers e mostra esse to-do atualizado como resposta
+
+#### Resposta 
+
+##### Header
+
+```
+{
+	"username": "bielassuncao"
+}
+```
+
+##### Body
+
+```
+{
+	"title": "Tarefa 6",
+	"deadline": "2022-11-20"
+}
+```
+
+##### Resposta
+```
+{
+	"id": "b53b7039-c04e-4bb1-a383-4a5b7f246bb8",
+	"title": "Tarefa 6 ",
+	"deadline": "2022-10-20T00:00:00.000Z",
+	"done": false,
+	"created_at": "2022-10-19T15:03:24.610Z"
+}
+```
+Status code: ```201```
+
+##### Possíveis erros
+O usuário não existe
+``` {error: 'User not found!'} ```
+
+Status code: ```404```
+
+Todo não encontrado
+```{error: 'Todo not found!'}```
+
+- PATCH - /todos/:id/done
+
+#### Descrição
+
+Essa rota altera o parâmetro done do to-do's a partir de um username no request headers e mostra esse to-do atualizado com o done com valor true
+
+#### Resposta 
+
+##### Header
+
+```
+{
+	"username": "bielassuncao"
+}
+```
+
+##### Body
+
+```
+{
+}
+```
+
+##### Resposta
+```
+{
+	"id": "b53b7039-c04e-4bb1-a383-4a5b7f246bb8",
+	"title": "Tarefa 6 ",
+	"deadline": "2022-10-20T00:00:00.000Z",
+	"done": true,
+	"created_at": "2022-10-19T15:03:24.610Z"
+}
+```
+Status code: ```201```
+
+##### Possíveis erros
+O usuário não existe
+``` {error: 'User not found!'} ```
+
+Todo não encontrado
+```{error: 'Todo not found!'}```
+
+Status code: ```404```
+
+- DELETE - /todos/:id
+
+#### Descrição
+
+Essa rota deleta o to-do's a partir de um username no request headers
+
+#### Resposta 
+
+##### Header
+
+```
+{
+	"username": "bielassuncao"
+}
+```
+
+##### Body
+
+```
+{
+}
+```
+
+##### Resposta
+```
+{
+}
+```
+Status code: ```201```
+
+##### Possíveis erros
+O usuário não existe
+``` {error: 'User not found!'} ```
+
+Status code: ```404```
+
+Todo não encontrado
+```{error: 'Todo not found!'}```
+
 
 
 
