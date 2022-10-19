@@ -39,7 +39,9 @@ Os passos desse tópico foram realizados no sistema operacional do Windows.
 
 Após o download, abra o Windos PowerShell no modo administrador e digite a seguinte linha de código para ver se o Node foi instalado corretamente:
 
-```node -v```
+```
+node -v
+```
 
 ### Instalando o Yarn
 
