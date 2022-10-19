@@ -1,13 +1,5 @@
  # 🖥️ Conceitos do Node.js - Ignite - Rocketseat
 
-Esse projeto consiste no Desafio 01 - Conceitos do Node.js
-
-O projeto foi realizado utilizando os conceitos iniciais do Node.js e a biblioteca Express
-
-https://www.notion.so/Desafio-01-Conceitos-do-Node-js-59ccb235aecd43a6a06bf09a24e7ede8#31772e343719426181b6c799ecb4ef55
-
-## Sobre o desafio
-
 Essa é uma aplicação para gerenciar tarefas (*to-do's*). 
 É permitida a criação de um usuário com name e username, bem como fazer o CRUD de todos:
 
@@ -18,6 +10,19 @@ Essa é uma aplicação para gerenciar tarefas (*to-do's*). 
 - Excluir um *to-do*;
 
 Tudo isso para cada usuário em específico (o username será passado pelo header).
+
+# 🧑‍💻 Tecnologias utilizadas
+
+O projeto foi realizado utilizando os conceitos iniciais do Node.js e a biblioteca Express
+
+- NodeJS
+- Express
+
+https://www.notion.so/Desafio-01-Conceitos-do-Node-js-59ccb235aecd43a6a06bf09a24e7ede8#31772e343719426181b6c799ecb4ef55
+
+## Sobre o desafio
+
+
 
 ## Rotas da Aplicação
 
