@@ -23,15 +23,15 @@ https://www.notion.so/Desafio-01-Conceitos-do-Node-js-59ccb235aecd43a6a06bf09a24
 
 ## 📌 Index
 
-- [Instalando as ferramentas]()
-  - [Instalando o NodeJS]
-  - [Instalando o Yarn]
-  - [Instalando o Insomnia]
-- [Executando o Projeto]
-- [Inicializando o Projeto]()
-- [Requisitos da aplicação](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs/blob/main/README.md#requisitos-da-aplica%C3%A7%C3%A3o)
-  - Requisitos de Usuário
-  - Requisitos de To-do
+- [Instalando as ferramentas](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#-instalando-as-ferramentas)
+  - [Instalando o NodeJS](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#instalando-o-nodejs)
+  - [Instalando o Yarn](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#instalando-o-yarn)
+  - [Instalando o Insomnia](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#instalando-o-insomnia)
+- [Executando o Projeto](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#-executando-o-projeto)
+- [Inicializando o Projeto](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#-inicializando-o-projeto)
+- [API](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#%EF%B8%8F-api)
+  - [Requisitos da Aplicação](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs#requisitos-da-aplica%C3%A7%C3%A3o)
+  - [Rotas]()
 
 ## 🧰 Instalando as Ferramentas 
 
@@ -118,7 +118,7 @@ Mantenha o terminal rodando para utilizar o projeto
 
 A URL base a ser usada como exemplo será uma variável base_url. Considere que ela armazene o valor http://localhost:3333.
 
-### Usuário
+### Rotas
 
 - POST - base_url/users
 
@@ -354,7 +354,3 @@ Status code: ```404```
 Todo não encontrado
 ```{error: 'Todo not found!'}```
 Status code: ```404```
-
-
-
-
