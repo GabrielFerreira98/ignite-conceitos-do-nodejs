@@ -1,4 +1,4 @@
- # 🖥️ ignite-conceitos-do-nodejs
+ # 🖥️ Conceitos do Node.js - Ignite - Rocketseat
 
 Esse projeto consiste no Desafio 01 - Conceitos do Node.js
 
