@@ -24,12 +24,16 @@ https://www.notion.so/Desafio-01-Conceitos-do-Node-js-59ccb235aecd43a6a06bf09a24
 ## 📌 Index
 
 - [Instalando as ferramentas]()
-  - Baixando o Yarn
+  - [Instalando o NodeJS]
+  - [Instalando o Yarn]
+  - [Instalando o Insomnia]
+- [Executando o Projeto]
+- [Inicializando o Projeto]()
 - [Requisitos da aplicação](https://github.com/GabrielFerreira98/ignite-conceitos-do-nodejs/blob/main/README.md#requisitos-da-aplica%C3%A7%C3%A3o)
   - Requisitos de Usuário
   - Requisitos de To-do
 
-# 🧰 Instalando as Ferramentas 
+## 🧰 Instalando as Ferramentas 
 
 Os passos desse tópico foram realizados no sistema operacional do Windows.
 
@@ -54,23 +58,54 @@ Há duas possibilidades de baixar o Yarn
 npm install -g yarn
 ```
 
-## Rotas da Aplicação
+### Instalando o Insomnia
 
-- post/users
-- get/todos
-- post/todos
-- put/todos/:id
-- patch/todos/:id/done
-- delete/todos/:id
+Pode ser baixado pelo próprio site do [Insomnia](https://insomnia.rest/download)
 
-## Requisitos da Aplicação
+## 🚀 Executando o projeto
 
-### Requisitos de usuário
+Faça o clone do projeto no Powershell 
+
+```
+#faça o clone do projeto
+git clone 
+
+#entre na pasta baixada
+cd ignite-conceitos-do-nodejs
+```
+
+### Abrindo o projeto
+
+Abra o projeto utilizando alguma IDE. Esse projeto foi feito utilizando o [VSCode](https://code.visualstudio.com/)
+
+### Instalando as dependências
+
+Instale as dependências do projeto utilizando a seguinte linha de comando:
+
+```
+yarn install
+```
+
+## 🏃 Inicializando o projeto
+
+Rode a linha de comando
+
+```
+yarn run dev
+```
+
+Mantenha o terminal rodando para utilizar o projeto
+
+## 🖥️ API
+
+### Requisitos da Aplicação
+
+#### Requisitos de usuário
 
 1. Deve ser possível criar um usuário
 2. Não deve ser possível criar um usuário com um username existente
 
-### Requisitos de To-do's
+#### Requisitos de To-do's
 
 1. Deve ser possível listar todos os to-do's de um usuário
 2. Deve ser possível criar um novo to-do
@@ -81,15 +116,12 @@ npm install -g yarn
 7. Deve ser possível deletar um to-do
 8. Não deve ser possível deletar um to-do não existente
 
-## Para testar o projeto
+- post/users
+- get/todos
+- post/todos
+- put/todos/:id
+- patch/todos/:id/done
+- delete/todos/:id
 
-Primeiro é necessário clonar o repositório.
 
-Após a clonagem, digite o comando:
 
-  "yarn install"
-  
-Após isso, há duas maneiras de se testar:
-
-1. Utilizando o Postman ou Insomnia no localhost:3333
-2. Utilizando o comando "yarn test" no próprio projeto.
