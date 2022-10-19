@@ -17,15 +17,18 @@ https://www.notion.so/Desafio-01-Conceitos-do-Node-js-59ccb235aecd43a6a06bf09a24
 
 # 🧑‍💻 Tecnologias utilizadas
 
-O projeto foi realizado utilizando os conceitos iniciais do Node.js e a biblioteca Express
-
 - [NodeJS](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
+- [Insomnia](https://insomnia.rest/)
 
 # 📌 Index
 
-- Instalando as ferramentas
+- [Instalando as ferramentas](18)
   - Baixando o Yarn
+- Requisitos da aplicação
+  - Requisitos de Usuário
+  - Requisitos de To-do
+- 
 
 
 ## Rotas da Aplicação
